@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.c{
+   display: flex;
+   background-color: darkgray;
+   margin: 50px;
+   padding-left: 30px;
+  
+}
+.relative{
+    position: relative;
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    border-left: 5px solid green;
+}
+.absolute a{
+    position: absolute;
+    background-color: rgba(9, 138, 9, 0.795);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50%;
+  
+    
+}
+.absolute a{
+    position: fixed;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.2ch;
+    border-radius: 0.2cm;
+    text-align: center;
+}
+ a:hover, a:active{
+ background-color: darkgreen;
+ }
+ 
